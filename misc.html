@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			body {
+				font-family: "Open Sans", sans-serif;
+			}
+			#item-container {
+				height: 460px;
+				width: 308px;
+				background-color: #dadada;
+				position: relative;
+				overflow:hidden;
+			}
+			#item-container:HOVER { 
+				background-color: #8df7dd;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+			}
+			
+			#item-footer {
+				position: absolute;
+				top: 380px;
+				background-color: white;
+				height: 250px;
+				width: 308px;
+				/*padding: 20px;*/
+			}
+			#item-container:HOVER #item-footer{ 
+				top: 210px;
+			} 
+			.item-hover {
+				-webkit-transition: 0.25s;
+				-moz-transition: 0.25s;
+				-0-transition: 0.25s;
+			}
+			.product-name {
+				
+				float: left;	
+				font-size: 15px;
+				color: #393c45;
+				font-weight: 700;
+				
+			}
+			.product-price {
+				float: right;	
+				color: #5ff7d2;
+				font-size: 22px;
+				font-weight: 600;
+			}
+			#item-footer span {
+				padding: 25px 20px 5px 20px;
+			}
+			#item-footer p {
+				font-size: 15px;
+				color: #b1b1b3;
+				padding: 15px 10px 0 20px;
+			}
+			.product-options .options {
+				font-size: 14px;
+				color: #393c45;
+				font-weight: 700;
+			}
+			.product-options p {
+				margin: 0;
+				color: #969699;
+    		font-size: 14px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="item-container" class="item-hover">
+			<div id="item-footer" class="item-hover">
+				<span class="product-price">$39</span>
+				<span class="product-name">FLUTED HEM DRESS</span>
+				<p class="product-category">Summer Dress</p>
+				<div class="product-options">
+					<span class="options">SIZES</span>
+					<p style="padding: 3px 0 20px 20px;">XXL, </p>
+					<span class="options">COLORS</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
