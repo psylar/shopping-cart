@@ -1,6 +1,14 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+.top-bar-left a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .item-container {
     height: 460px;
     width: 308px;
