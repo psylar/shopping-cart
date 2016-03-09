@@ -1,0 +1,112 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.item-container {
+    height: 460px;
+    width: 308px;
+    background-color: #dadada;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 10px 45px 10px;
+}
+.item-container:HOVER {
+    background-color: #8df7dd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    /*				height: 465px;
+				width: 313px;*/
+}
+.item-footer {
+    position: absolute;
+    top: 365px;
+    background-color: white;
+    height: 235px;
+    width: 308px;
+    /*padding: 20px;*/
+}
+.item-container:HOVER .item-footer {
+    top: 240px;
+    /*				height: 225px;
+				width: 313px;*/
+}
+.item-hover {
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -0-transition: 0.25s;
+}
+.product-name {
+    float: left;
+    font-size: 15px;
+    color: #393c45;
+    font-weight: 700;
+}
+.product-price {
+    float: right;
+    color: #5ff7d2;
+    font-size: 22px;
+    font-weight: 600;
+}
+.item-footer > span {
+    padding: 25px 20px 5px 20px;
+}
+.item-footer > p {
+    font-size: 15px;
+    color: #b1b1b3;
+    padding: 15px 10px 0 20px;
+}
+.product-options span.options {
+    font-size: 14px;
+    color: #393c45;
+    font-weight: 700;
+    padding: 30px 20px 5px 20px;
+}
+.product-options p {
+    margin: 0;
+    color: #969699;
+    font-size: 14px;
+    padding: 3px 0 20px 22px;
+}
+.product-options div.colors {
+    margin-left: 12px;
+}
+.product-options div.colors div {
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 8px 0px 18px 2px;
+    height: 18px;
+    width: 18px;
+    float: left;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -0-transition: 0.15s;
+}
+.product-options div.colors .col-red {
+    background-color: indianred;
+}
+.product-options div.colors .col-red:HOVER {
+    border: 2px solid indianred;
+}
+.product-options div.colors .col-purple {
+    background-color: mediumpurple;
+}
+.product-options div.colors .col-purple:HOVER {
+    border: 2px solid mediumpurple;
+}
+.product-options div.colors .col-white {
+    background-color: navajowhite;
+}
+.product-options div.colors .col-white:HOVER {
+    border: 2px solid navajowhite;
+}
+.product-options div.colors .col-blue {
+    background-color: dodgerblue;
+}
+.product-options div.colors .col-blue:HOVER {
+    border: 2px solid dodgerblue;
+}
+.product-options div.colors .col-green {
+    background-color: mediumseagreen;
+}
+.product-options div.colors .col-green:HOVER {
+    border: 2px solid mediumseagreen;
+}
