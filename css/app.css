@@ -25,9 +25,7 @@ body {
     /*padding: 20px;*/
 }
 .item-container:HOVER .item-footer {
-    top: 240px;
-    /*				height: 225px;
-				width: 313px;*/
+    top: 225px;
 }
 .item-hover {
     -webkit-transition: 0.25s;
