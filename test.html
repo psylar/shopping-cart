@@ -10,51 +10,67 @@
     <link rel="stylesheet" href="css/app.css">
 
     <style>
-			.row div {
-				height: 50px;
-			}
-			.row div:nth-child(even) {
-				background-color: red;
-			}
-			.row div:nth-child(odd) {
-				background-color: green;
-			}
+        .row div {
+            height: 50px;
+        }
+        .row div:nth-child(even) {
+            background-color: indianred;
+        }
+        .row div:nth-child(odd) {
+            background-color: darkseagreen;
+        }
     </style>
 </head>
 
 <body>
+    <script>
+      /*var obj = documet.getElementById()*/
+      function check(obj) {
+        if(obj.checked)
+          alert(obj.value + ' checked');
+        else 
+          alert(obj.value + ' unchecked');
+      }
+    </script>
+    <table></table>
+    <tr>
+      <input type="checkbox" value="i1" onclick="check(this)" id="LANG_LIST_AR">
+      <input type="checkbox" value="i2" onclick="check(this)" id="LANG_LIST_Ae">
+      <input type="checkbox" value="i3" onclick="check(this)" id="LANG_LIST_Aw">
+    </tr>
+    </table>
 
-<div class="row">
-  <div class="small-2 large-4 columns">1</div>
-  <div class="small-4 large-4 columns">2</div>
-  <div class="small-6 large-4 columns">3</div>
-</div>
-<div class="row">
-  <div class="large-3 columns">4</div>
-  <div class="large-6 columns">5</div>
-  <div class="large-3 columns">6</div>
-</div>
-<div class="row">
-  <div class="small-6 large-2 columns">7</div>
-  <div class="small-6 large-8 columns">8-</div>
-  <div class="small-12 large-2 columns">9-</div>
-</div>
-<div class="row">
-  <div class="small-3 columns">10-></div>
-  <div class="small-9 columns">11></div>
-</div>
-<div class="row">
-  <div class="large-4 columns">12</div>
-  <div class="large-8 columns">13></div>
-</div>
-<div class="row">
-  <div class="small-6 large-5 columns">14</div>
-  <div class="small-6 large-7 columns">15</div>
-</div>
-<div class="row">
-  <div class="large-6 columns">16</div>
-  <div class="large-6 columns">17</div>
-</div>
+    <div class="row">
+        <div class="small-2 large-4 columns">1</div>
+        <div class="small-4 large-4 columns">2</div>
+        <div class="small-6 large-4 columns">3</div>
+    </div>
+    <div class="row">
+        <div class="large-3 columns">4</div>
+        <div class="large-6 columns">5</div>
+        <div class="large-3 columns">6</div>
+    </div>
+    <div class="row">
+        <div class="small-6 large-2 columns">7</div>
+        <div class="small-6 large-8 columns">8-</div>
+        <div class="small-12 large-2 columns">9-</div>
+    </div>
+    <div class="row">
+        <div class="small-3 columns">10-></div>
+        <div class="small-9 columns">11></div>
+    </div>
+    <div class="row">
+        <div class="large-4 columns">12</div>
+        <div class="large-8 columns">13></div>
+    </div>
+    <div class="row">
+        <div class="small-6 large-5 columns">14</div>
+        <div class="small-6 large-7 columns">15</div>
+    </div>
+    <div class="row">
+        <div class="large-6 columns">16</div>
+        <div class="large-6 columns">17</div>
+    </div>
 
 
     <script src="js/vendor/jquery.min.js"></script>
